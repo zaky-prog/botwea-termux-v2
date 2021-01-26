@@ -1127,7 +1127,6 @@ async function starts() {
                                         await limitAdd(sender)
 					break  
 					case 'bpink':
-              
                   if (args.length < 1) return reply(`Masukan Teks\nContoh : ${prefix}Caliph Bot`)
                 data = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${body.slice(7)}`)
                 if (!iRegister) return reply(mess.only.daftarB)
