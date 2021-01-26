@@ -374,7 +374,7 @@ async function starts() {
                                 levelon: '   *enable leveling*',
 				leveloff: '  X   *disable leveling*',
 				levelnoton: ' X  *leveling not aktif*',
-				levelnol: '*LEVEL KAKAK MASIH* 0 �-�',
+				levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
 				error: {
 					stick: '[] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ',
 					Iv: ' Link tidak valid '
@@ -536,96 +536,96 @@ async function starts() {
                                         break
                                 case '18+menu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(adult(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(adult(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'downloadermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(from, downloader(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(from, downloader(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'educationmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(from, education(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(from, education(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'funmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(fun(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(fun(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'groupmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(group(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(group(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'imagemakermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(imagemaker(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(imagemaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'informationmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(information(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(information(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'islammenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(islam(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(islam(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'kerangmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(kerang(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(kerang(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'logomakermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(logomaker(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(logomaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'mememenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(meme(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(meme(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'musicmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(music(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(music(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'othermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(other(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(other(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'ownermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(owner(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(owner(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'searchmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(search(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(search(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'soundmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(sound(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(sound(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stalkmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(stalk(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(stalk(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stayonscreenmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(stayonscreen(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(stayonscreen(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stickermakermenu':
                                 case 'stikermakermenu':
                                         if (!isRsgister) return reply(mess.only.daftarB)
-                                        await costum(stickermaker(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(stickermaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'todmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(tod(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(tod(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'wibumenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(wibu(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(wibu(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'xpmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(xp(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(xp(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'limitmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(limit(prefix, botName, ownerName), text, tescuk, cr)
+                                        await costum(limit(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break 
                   case 'timer':
 				if (args[1]=="detik") {var timer = args[0]+"000"
@@ -1736,13 +1736,13 @@ async function starts() {
 					client.sendMessage(from, '* Jawaban :* '+anu.result.jawaban+'\n'+anu.result.desk, text, {quoted: mek}) // ur cods
 					}, 30000) // 1000 = 1s,
 					setTimeout( () => {
-					client.sendMessage(from, '_10 Detik lagi�_', text) // ur cods
+					client.sendMessage(from, '_10 Detik lagi_', text) // ur cods
 					}, 20000) // 1000 = 1s,
 					setTimeout( () => {
-					client.sendMessage(from, '_20 Detik lagi_�', text) // ur cods
+					client.sendMessage(from, '_20 Detik lagi_', text) // ur cods
 					}, 10000) // 1000 = 1s,
 					setTimeout( () => {
-					client.sendMessage(from, '_30 Detik lagi_�', text) // ur cods
+					client.sendMessage(from, '_30 Detik lagi_', text) // ur cods
 					}, 1000) // 1000 = 1s,
 					setTimeout( () => {
 					client.sendMessage(from, anu.result.soal, text, { quoted: mek }) // ur cods
@@ -1974,7 +1974,7 @@ async function starts() {
 					client.sendMessage(from, truteh, image, { caption: '*Truth*\n\n'+ ttrth, quoted: mek })
 					break
                                 case 'dare':
-					const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "🦄💨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
+					const dare =['Kirim pesan ke mantan kamu dan bilang "aku masih suka sama kamu','telfon crush/pacar sekarang dan ss ke pemain','pap ke salah satu anggota grup','Bilang "KAMU CANTIK BANGET NGGAK BOHONG" ke cowo','ss recent call whatsapp','drop emot "ð¦ð¨" setiap ngetik di gc/pc selama 1 hari','kirim voice note bilang can i call u baby?','drop kutipan lagu/quote, terus tag member yang cocok buat kutipan itu','pake foto sule sampe 3 hari','ketik pake bahasa daerah 24 jam','ganti nama menjadi "gue anak lucinta luna" selama 5 jam','chat ke kontak wa urutan sesuai %batre kamu, terus bilang ke dia "i lucky to hv you','prank chat mantan dan bilang " i love u, pgn balikan','record voice baca surah al-kautsar','bilang "i hv crush on you, mau jadi pacarku gak?" ke lawan jenis yang terakhir bgt kamu chat (serah di wa/tele), tunggu dia bales, kalo udah ss drop ke sini','sebutkan tipe pacar mu!','snap/post foto pacar/crush','teriak gajelas lalu kirim pake vn kesini','pap mukamu lalu kirim ke salah satu temanmu','kirim fotomu dengan caption, aku anak pungut','teriak pake kata kasar sambil vn trus kirim kesini','teriak " anjimm gabutt anjimmm " di depan rumah mu','ganti nama jadi " BOWO " selama 24 jam','Pura pura kerasukan, contoh : kerasukan maung, kerasukan belalang, kerasukan kulkas, dll']
 					const der = dare[Math.floor(Math.random() * dare.length)]
 					tod = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 					client.sendMessage(from, tod, image, { quoted: mek, caption: '*Dare*\n\n'+ der })
