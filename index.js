@@ -532,13 +532,13 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 			                const uangku = checkATMuser(sender)
-                                        await costum(help(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, help(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case '18+menu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(adult(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, adult(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'downloadermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
@@ -556,122 +556,122 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(fun(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, fun(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'groupmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(group(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, group(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'imagemakermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(imagemaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, imagemaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'informationmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(information(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, information(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'islammenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(islam(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, islam(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'kerangmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(kerang(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, kerang(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'logomakermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(logomaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, logomaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'mememenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(meme(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, meme(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'musicmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(music(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, music(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'othermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(other(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, other(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'ownermenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(owner(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, owner(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'searchmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(search(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, search(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'soundmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(sound(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, sound(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stalkmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(stalk(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, stalk(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stayonscreenmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(stayonscreen(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, stayonscreen(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'stickermakermenu':
                                 case 'stikermakermenu':
                                         if (!isRsgister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(stickermaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, stickermaker(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'todmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(tod(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, tod(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'wibumenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(wibu(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, wibu(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'xpmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(xp(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, xp(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
                                 case 'limitmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
 					const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 					const uangku = checkATMuser(sender)
-                                        await costum(limit(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
+                                        await costum(from, limit(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break 
                   case 'timer':
 				if (args[1]=="detik") {var timer = args[0]+"000"
