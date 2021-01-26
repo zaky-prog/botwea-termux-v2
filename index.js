@@ -984,15 +984,17 @@ async function starts() {
               await limitAdd(sender)
               break
           case 'goldbutton':
-				if (!isRegister) return reply(mess.only.daftarB)
-                if (isLimit(sender)) return reply(ind.limitend(pusname))
-					gol = body.slice(12)
-					if (args.length < 1) return reply('Teksnya mana um')
-					reply(mess.wait)
-					anu = await fetchJson(`https://api-zeks.harispoppy.com/api/gplaybutton?text=${gol}&apikey=apivinz`, {method: 'get'})
-					gools = await getBuffer(anu.result)
-					client.sendMessage(from, gools, image, {quoted: mek})
-					break
+                           var gold = body.slice(12)
+                          var gold2 = gold.split("|")[0];
+                           if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}goldbutton ANKER')
+                           if (!isRegister) return reply(mess.only.daftarB)
+                           if (isLimit(sender)) return reply(ind.limitend(pusname))
+                           reply(mess.wait)
+                           gold3 = await fetchJson(`https://api.zeks.xyz/api/gplaybutton?text=${gold2}&apikey=apivinz`, {method: 'get'})
+                           gold4 = await getBuffer(gold3.result)
+                           client.sendMessage(from, gold4, image, {quoted: mek, caption: 'Nih kak...'})
+                           await limitAdd(sender)
+                           break
 				case 'silverbutton':
 				if (!isRegister) return reply(mess.only.daftarB)
                 if (isLimit(sender)) return reply(ind.limitend(pusname))
