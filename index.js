@@ -926,6 +926,15 @@ async function starts() {
 						fs.unlinkSync(rano)
 					})
 					break*/
+				case 'tahta':
+				      if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}tahta gw benci lu .')
+                                      if (!isRegister) return reply(mess.only.daftarB)
+                                      if (isLimit(sender)) return reply(ind.limitend(pusname))
+			               tah = body.slice(7)
+					   reply(mess.wait)
+					   ta = await getBuffer(`https://api.zeks.xyz/api/hartatahta?text=${tah}&apikey=apivinz`)
+					   client.sendMessage(from, ta, image, {caption: 'Nih kak', quoted: mek})
+				break
 				case 'nulis':
 				case 'tulis':
 					if (args.length < 1) return reply('Yang mau di tulis apaan?')
