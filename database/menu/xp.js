@@ -1,4 +1,4 @@
-const xp = (prefix, botName, ownerName) => {
+const xp = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
         return `
 ╔══✪〘 INFORMATION 〙✪══
 ║
