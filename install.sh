@@ -15,4 +15,4 @@ npm install --dev
 npm i got
 
 echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
-echo "Updates : fix Bugs"
+echo "Updates : fix Bug"
