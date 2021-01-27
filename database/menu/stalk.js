@@ -1,4 +1,4 @@
-const stalk = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
+const stalk = (pushname, prefix, botName, ownerName) => {
         return `
 ╔══✪〘 INFORMATION 〙✪══
 ║
@@ -9,8 +9,6 @@ const stalk = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║║╠➥ Prefix: 「  ${prefix}  」
 ║║╠➥ Creator: ${ownerName}
 ║║╠➥ Name: ${pushname}
-║║╠➥ XP: ${reqXp}
-║║╠➥ Money: ${uangku}
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
