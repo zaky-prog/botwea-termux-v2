@@ -1,4 +1,4 @@
-const adult = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
+const adult = (pushname, prefix, botName, ownerName) => {
         return `
 ╔══✪〘 INFORMATION 〙✪══
 ║
