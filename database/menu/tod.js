@@ -1,4 +1,4 @@
-const tod = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
+const tod = (pushname, prefix, botName, ownerName) => {
         return `
 ╔══✪〘 INFORMATION 〙✪══
 ║
@@ -9,8 +9,6 @@ const tod = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║║╠➥ Prefix: 「  ${prefix}  」
 ║║╠➥ Creator: ${ownerName}
 ║║╠➥ Name: ${pushname}
-║║╠➥ XP: ${reqXp}
-║║╠➥ Money: ${uangku}
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
