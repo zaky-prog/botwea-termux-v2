@@ -9,8 +9,6 @@ const adult = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║║╠➥ Prefix: 「  ${prefix}  」
 ║║╠➥ Creator: ${ownerName}
 ║║╠➥ Name: ${pushname}
-║║╠➥ XP: ${reqXp}
-║║╠➥ Money: ${uangku}
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
