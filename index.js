@@ -98,8 +98,8 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'END:VCARD'
 prefix = '#'//PREFIX BOT
 blocked = ['6283806369677']//NOMER BLOCK
-limitawal = '25'
-cr = '*Verified*'
+limitawal = '50'
+cr = '*BOT WHATSAPP*'
 
 // Functions
 const getLevelingXp = (userId) => {
