@@ -2340,26 +2340,23 @@ async function starts() {
 					}
 					break
                                 case 'pubglogo':
-                                        var gh = body.slice(9)
-                                        var teks1 = gh.split("|")[0];
-                                        var teks2 = gh.split("|")[1];
-                                        if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}pubglogo Nazwa|Canss')
+                                        var meee = body.slice(10)
+                                        var meee1 = meee.split("|")[0];
+                                        var meee2 = meee.split("|")[1];
+                                        if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}pubglogo bacot|ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        if (isLimit(sender)) return reply(ind.limitend(pusname))
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=pubg&text1=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih logonya kak...'})
+                                        meee3 = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=pubg&text1=${meee1}&text2=${meee2}&apikey=BotWeA`, {method: 'get'})
+                                        meee4 = await getBuffer(meee3.result)
+                                        client.sendMessage(from, meee4, image, {quoted: mek, caption: 'Nih logonya kak...'})
                                         await limitAdd(sender)
                                         break
-                                case 'herrypotter':
                                 case 'harrypotter':
-                                        var gh = body.slice(12)
-                                        if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}harrypotter NazwaCanss')
+                                        const ajg9 = body.slice(13)
+                                        if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}harrypotter DenzKntd')
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        if (isLimit(sender)) return reply(ind.limitend(pusname))
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=harry_potter&text=${gh}&apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih kak gambarnya...'})
+                                        ajgg9 = await fetchJson(`https://tobz-api.herokuapp.com/api/photooxy?theme=harry_potter&text=${ajg9}&apikey=BotWeA`, {method: 'get'})
+                                        ajggg9 = await getBuffer(ajgg9.result)
+                                        client.sendMessage(from, ajggg9, image, {quoted: mek, caption: 'Nih kak gambarnya...'})
                                         await limitAdd(sender)
                                         break
                                 case 'katabijak':
@@ -2369,6 +2366,20 @@ async function starts() {
                                         reply(anu.result)
                                         await limitAdd(sender)
                                         break
+				case 'bugreport':
+                                         if (!isRegister) return reply(mess.only.daftarB)
+                                         const pesan = body.slice(10)
+                                         if (pesan.length > 300) return client.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
+                                        var nomor = mek.participant
+                                        const teks1 = `*[REPORT]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
+
+                                       var options = {
+                                       text: teks1,
+                                        contextInfo: {mentionedJid: [nomor]},
+                                         }
+                                       client.sendMessage('6282331998091@s.whatsapp.net', options, text, {quoted: mek})
+                                       reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
+                                       break
                                 case 'faktaunik':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
