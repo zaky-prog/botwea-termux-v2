@@ -23,6 +23,8 @@ const imagemaker = (pushname, prefix, botName, ownerName) => {
 ║║╠➥ *${prefix}bpink*
 ║║╠➥ *${prefix}snowwrite*
 ║║╠➥ *${prefix}3dtext*
+║║╠➥ *${prefix}goldbutton*
+║║╠➥ *${prefix}tahta*
 ║║╠➥ *${prefix}firetext*
 ║║╠➥ *${prefix}glitch*
 ║║╠➥ *${prefix}shadow*
