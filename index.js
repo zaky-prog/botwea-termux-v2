@@ -2366,20 +2366,6 @@ async function starts() {
                                         reply(anu.result)
                                         await limitAdd(sender)
                                         break
-				case 'bugreport':
-                                         if (!isRegister) return reply(mess.only.daftarB)
-                                         const pesan = body.slice(10)
-                                         if (pesan.length > 300) return client.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
-                                        var nomor = mek.participant
-                                        const teks1 = `*[REPORT]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
-
-                                       var options = {
-                                       text: teks1,
-                                        contextInfo: {mentionedJid: [nomor]},
-                                         }
-                                       client.sendMessage('6282331998091@s.whatsapp.net', options, text, {quoted: mek})
-                                       reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
-                                       break
                                 case 'faktaunik':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
