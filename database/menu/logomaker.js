@@ -3,7 +3,7 @@ const logomaker = (pushname, prefix, botName, ownerName) => {
 ╔══✪〘 INFORMATION 〙✪══
 ║
 ║╔═══════════════════╗
-║║╠➥ Name : ${ownerName}
+║║╠➥ Name : DARK BOT
 ║║╠➥3.0
 ║║╠➥ wa.me/6281368646011
 ║║╠➥ Prefix: 「  ${pushname}  」
@@ -15,21 +15,21 @@ const logomaker = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}marvellogo*
-║║╠➥ *${prefix}ninjalogo*
-║║╠➥ *${prefix}logowolf*
-║║╠➥ *${prefix}logowolf2*
-║║╠➥ *${prefix}phlogo*
-║║╠➥ *${prefix}neonlogo*
-║║╠➥ *${prefix}neonlogo2*
-║║╠➥ *${prefix}lionlogo*
-║║╠➥ *${prefix}pubglogo*
-║║╠➥ *${prefix}jokerlogo*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}marvellogo*
+║║╠➥ *${pushname}ninjalogo*
+║║╠➥ *${pushname}logowolf*
+║║╠➥ *${pushname}logowolf2*
+║║╠➥ *${pushname}phlogo*
+║║╠➥ *${pushname}neonlogo*
+║║╠➥ *${pushname}neonlogo2*
+║║╠➥ *${pushname}lionlogo*
+║║╠➥ *${pushname}pubglogo*
+║║╠➥ *${pushname}jokerlogo*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
