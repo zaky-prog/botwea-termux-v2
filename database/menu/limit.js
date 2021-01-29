@@ -3,12 +3,12 @@ const limit = (pushname, prefix, botName, ownerName) => {
 ╔══✪〘 INFORMATION 〙✪══
 ║
 ║╔═══════════════════╗
-║║╠➥ Name : ${botName}
+║║╠➥ Name : ${ownerName}
 ║║╠➥3.0
 ║║╠➥ wa.me/6281368646011
-║║╠➥ Prefix: 「  ${prefix}  」
-║║╠➥ Creator: ${ownerName}
-║║╠➥ Name: ${pushname}
+║║╠➥ Prefix: 「  ${pushname}  」
+║║╠➥ Creator: ${botName}
+║║╠➥ Name: ${prefix}
 ║║╠➥ Registered: ✔️
 ║╚═══════════════════╝
 ║
