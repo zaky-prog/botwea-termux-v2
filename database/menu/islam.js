@@ -16,12 +16,12 @@ const islam = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}quran*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}quran*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
