@@ -15,19 +15,19 @@ const information = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}bahasa*
-║║╠➥ *${prefix}kodenegara*
-║║╠➥ *${prefix}kbbi*
-║║╠➥ *${prefix}fakta*
-║║╠➥ *${prefix}infocuaca*
-║║╠➥ *${prefix}infogempa*
-║║╠➥ *${prefix}jadwaltvnow*
-║║╠➥ *${prefix}covidcountry*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}bahasa*
+║║╠➥ *${pushname}kodenegara*
+║║╠➥ *${pushname}kbbi*
+║║╠➥ *${pushname}fakta*
+║║╠➥ *${pushname}infocuaca*
+║║╠➥ *${pushname}infogempa*
+║║╠➥ *${pushname}jadwaltvnow*
+║║╠➥ *${pushname}covidcountry*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
