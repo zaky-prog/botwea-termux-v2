@@ -15,30 +15,30 @@ const group = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}opengc*
-║║╠➥ *${prefix}closegc*
-║║╠➥ *${prefix}promote*
-║║╠➥ *${prefix}demote*
-║║╠➥ *${prefix}tagall*
-║║╠➥ *${prefix}tagall2*
-║║╠➥ *${prefix}tagall3*
-║║╠➥ *${prefix}tagall4*
-║║╠➥ *${prefix}tagall5*
-║║╠➥ *${prefix}add*
-║║╠➥ *${prefix}kick*
-║║╠➥ *${prefix}listadmins*
-║║╠➥ *${prefix}linkgroup*
-║║╠➥ *${prefix}leave*
-║║╠➥ *${prefix}welcome*
-║║╠➥ *${prefix}nsfw*
-║║╠➥ *${prefix}delete*
-║║╠➥ *${prefix}simih*
-║║╠➥ *${prefix}ownergroup*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}opengc*
+║║╠➥ *${pushname}closegc*
+║║╠➥ *${pushname}promote*
+║║╠➥ *${pushname}demote*
+║║╠➥ *${pushname}tagall*
+║║╠➥ *${pushname}tagall2*
+║║╠➥ *${pushname}tagall3*
+║║╠➥ *${pushname}tagall4*
+║║╠➥ *${pushname}tagall5*
+║║╠➥ *${pushname}add*
+║║╠➥ *${pushname}kick*
+║║╠➥ *${pushname}listadmins*
+║║╠➥ *${pushname}linkgroup*
+║║╠➥ *${pushname}leave*
+║║╠➥ *${pushname}welcome*
+║║╠➥ *${pushname}nsfw*
+║║╠➥ *${pushname}delete*
+║║╠➥ *${pushname}simih*
+║║╠➥ *${pushname}ownergroup*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
