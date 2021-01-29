@@ -15,20 +15,20 @@ const fun = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}alay*
-║║╠➥ *${prefix}gantengcek*
-║║╠➥ *${prefix}watak*
-║║╠➥ *${prefix}hobby*
-║║╠➥ *${prefix}game*
-║║╠➥ *${prefix}bucin*
-║║╠➥ *${prefix}trust*
-║║╠➥ *${prefix}dare*
-║║╠➥ *${prefix}simi*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}alay*
+║║╠➥ *${pushname}gantengcek*
+║║╠➥ *${pushname}watak*
+║║╠➥ *${pushname}hobby*
+║║╠➥ *${pushname}game*
+║║╠➥ *${pushname}bucin*
+║║╠➥ *${pushname}trust*
+║║╠➥ *${pushname}dare*
+║║╠➥ *${pushname}simi*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
