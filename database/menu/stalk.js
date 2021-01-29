@@ -15,13 +15,13 @@ const stalk = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
 ║║╠➥ *${prefix}tiktokstalk*
-║║╠➥ *${prefix}igstalk*
+║║╠➥ *${pushname}igstalk*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
