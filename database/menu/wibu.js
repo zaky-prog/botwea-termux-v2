@@ -15,20 +15,20 @@ const wibu = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}neonime*
-║║╠➥ *${prefix}pokemon*
-║║╠➥ *${prefix}loli*
-║║╠➥ *${prefix}waifu*
-║║╠➥ *${prefix}randomanime*
-║║╠➥ *${prefix}husbu*
-║║╠➥ *${prefix}husbu2*
-║║╠➥ *${prefix}wait*
-║║╠➥ *${prefix}nekonime*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}neonime*
+║║╠➥ *${pushname}pokemon*
+║║╠➥ *${pushname}loli*
+║║╠➥ *${pushname}waifu*
+║║╠➥ *${pushname}randomanime*
+║║╠➥ *${pushname}husbu*
+║║╠➥ *${pushname}husbu2*
+║║╠➥ *${pushname}wait*
+║║╠➥ *${pushname}nekonime*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
