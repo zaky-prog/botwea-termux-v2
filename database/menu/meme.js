@@ -3,7 +3,7 @@ const meme = (pushname, prefix, botName, ownerName) => {
 ╔══✪〘 INFORMATION 〙✪══
 ║
 ║╔═══════════════════╗
-║║╠➥ Name : ${ownerName}
+║║╠➥ Name : DARK BOT
 ║║╠➥3.0
 ║║╠➥ wa.me/6281368646011
 ║║╠➥ Prefix: 「  ${pushname}  」
@@ -15,13 +15,13 @@ const meme = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}meme*
-║║╠➥ *${prefix}memeindo*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}meme*
+║║╠➥ *${pushname}memeindo*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
