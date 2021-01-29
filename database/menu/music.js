@@ -3,7 +3,7 @@ const music = (pushname, prefix, botName, ownerName) => {
 ╔══✪〘 INFORMATION 〙✪══
 ║
 ║╔═══════════════════╗
-║║╠➥ Name : ${ownerName}
+║║╠➥ Name : DARK BOT
 ║║╠➥3.0
 ║║╠➥ wa.me/6281368646011
 ║║╠➥ Prefix: 「  ${pushname}  」
@@ -15,15 +15,15 @@ const music = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}play*
-║║╠➥ *${prefix}joox*
-║║╠➥ *${prefix}lirik*
-║║╠➥ *${prefix}chord*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}play*
+║║╠➥ *${pushname}joox*
+║║╠➥ *${pushname}lirik*
+║║╠➥ *${pushname}chord*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
