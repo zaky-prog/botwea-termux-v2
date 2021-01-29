@@ -15,18 +15,18 @@ const other = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}send*
-║║╠➥ *${prefix}wame*
-║║╠➥ *${prefix}virtex*
-║║╠➥ *${prefix}qrcode*
-║║╠➥ *${prefix}timer*
-║║╠➥ *${prefix}fml*
-║║╠➥ *${prefix}fml2*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}send*
+║║╠➥ *${pushname}wame*
+║║╠➥ *${pushname}virtex*
+║║╠➥ *${pushname}qrcode*
+║║╠➥ *${pushname}timer*
+║║╠➥ *${pushname}fml*
+║║╠➥ *${pushname}fml2*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
