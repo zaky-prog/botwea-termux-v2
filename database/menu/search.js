@@ -15,17 +15,17 @@ const search = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}wait*
-║║╠➥ *${prefix}ytsearch*
-║║╠➥ *${prefix}trendtwit*
-║║╠➥ *${prefix}wikien*
-║║╠➥ *${prefix}wiki*
-║║╠➥ *${prefix}neonime*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}wait*
+║║╠➥ *${pushname}ytsearch*
+║║╠➥ *${pushname}trendtwit*
+║║╠➥ *${pushname}wikien*
+║║╠➥ *${pushname}wiki*
+║║╠➥ *${pushname}neonime*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
