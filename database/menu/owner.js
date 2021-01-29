@@ -15,17 +15,17 @@ const owner = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}setprefix*
-║║╠➥ *${prefix}block*
-║║╠➥ *${prefix}bc*
-║║╠➥ *${prefix}bcgc*
-║║╠➥ *${prefix}clone*
-║║╠➥ *${prefix}clearall*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}setprefix*
+║║╠➥ *${pushname}block*
+║║╠➥ *${pushname}bc*
+║║╠➥ *${pushname}bcgc*
+║║╠➥ *${pushname}clone*
+║║╠➥ *${pushname}clearall*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
