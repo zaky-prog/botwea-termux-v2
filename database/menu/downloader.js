@@ -15,15 +15,15 @@ const downloader = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}pinterest*
-║║╠➥ *${prefix}ytmp3*
-║║╠➥ *${prefix}ytmp4*
-║║╠➥ *${prefix}tiktok*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}pinterest*
+║║╠➥ *${pushname}ytmp3*
+║║╠➥ *${pushname}ytmp4*
+║║╠➥ *${pushname}tiktok*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
