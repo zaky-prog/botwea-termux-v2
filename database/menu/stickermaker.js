@@ -15,14 +15,14 @@ const stickermaker = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}sticker
-║║╠➥ *${prefix}stickergif
-║║╠➥ *${prefix}ttp
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}sticker
+║║╠➥ *${pushname}stickergif
+║║╠➥ *${pushname}ttp
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
