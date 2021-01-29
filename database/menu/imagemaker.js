@@ -15,32 +15,32 @@ const imagemaker = (pushname, prefix, botName, ownerName) => {
 ║═══°❀ ❬ *DARK BOT* ❭ ❀°═══⊱
 ║
 ║╔═══════════════════╗
-║║╠➥ *${prefix}info*
-║║╠➥ *${prefix}blocklist*
-║║╠➥ *${prefix}chatlist*
-║║╠➥ *${prefix}ping*
-║║╠➥ *${prefix}bugreport*
-║║╠➥ *${prefix}bpink*
-║║╠➥ *${prefix}snowwrite*
-║║╠➥ *${prefix}3dtext*
-║║╠➥ *${prefix}goldbutton*
-║║╠➥ *${prefix}tahta*
-║║╠➥ *${prefix}firetext*
-║║╠➥ *${prefix}glitch*
-║║╠➥ *${prefix}shadow*
-║║╠➥ *${prefix}burnpaper*
-║║╠➥ *${prefix}coffee*
-║║╠➥ *${prefix}lovepaper*
-║║╠➥ *${prefix}woodblock*
-║║╠➥ *${prefix}qowheart*
-║║╠➥ *${prefix}mutgrass*
-║║╠➥ *${prefix}undergocean*
-║║╠➥ *${prefix}woodenboards*
-║║╠➥ *${prefix}wolfmetal*
-║║╠➥ *${prefix}metalictglow*
-║║╠➥ *${prefix}8bit*
-║║╠➥ *${prefix}herrypotter*
-║║╠➥ *${prefix}quotemaker*
+║║╠➥ *${pushname}info*
+║║╠➥ *${pushname}blocklist*
+║║╠➥ *${pushname}chatlist*
+║║╠➥ *${pushname}ping*
+║║╠➥ *${pushname}bugreport*
+║║╠➥ *${pushname}bpink*
+║║╠➥ *${pushname}snowwrite*
+║║╠➥ *${pushname}3dtext*
+║║╠➥ *${pushname}goldbutton*
+║║╠➥ *${pushname}tahta*
+║║╠➥ *${pushname}firetext*
+║║╠➥ *${pushname}glitch*
+║║╠➥ *${pushname}shadow*
+║║╠➥ *${pushname}burnpaper*
+║║╠➥ *${pushname}coffee*
+║║╠➥ *${pushname}lovepaper*
+║║╠➥ *${pushname}woodblock*
+║║╠➥ *${pushname}qowheart*
+║║╠➥ *${pushname}mutgrass*
+║║╠➥ *${pushname}undergocean*
+║║╠➥ *${pushname}woodenboards*
+║║╠➥ *${pushname}wolfmetal*
+║║╠➥ *${pushname}metalictglow*
+║║╠➥ *${pushname}8bit*
+║║╠➥ *${pushname}herrypotter*
+║║╠➥ *${pushname}quotemaker*
 ║║╠➥ *Ada Fitur Maker Eror Di Sebabkan oleh web down/eror*
 ║╚═══════════════════╝
 ║
