@@ -1705,18 +1705,17 @@ async function starts() {
                       client.sendMessage(from, buff, image, {quoted: mek})
                       await limitAdd(sender)
                       break
-                         case 'play':   
-	          if (!isRegister) return reply(mess.only.daftarB)
-                  if (isLimit(sender)) return reply(ind.limitend(pusname))
-                reply(mess.wait)
-                play22 = body.slice(6)
-                anu22 = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play22}&apikey=apivinz`)
-               if (anu.error) return reply(anu.error)
-                 infomp22 = `*Lagu Ditemukan!!!*\nJudul : ${anu22.result.title}\nSource : ${anu22.result.source}\nUkuran : ${anu22.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM, NOTE : JIKA TIDAK DI KIRIM EROR/DOWN*`
-                buffer22 = await getBuffer(anu22.result.thumbnail)
-                lagu22 = await getBuffer(anu22.result.url_audio)
-                client.sendMessage(from, buffer22, image, {quoted: mek, caption: infomp22})
-                client.sendMessage(from, lagu22, audio, {mimetype: 'audio/mp4', filename: `${anu22.title}.mp3`, quoted: mek})
+                         case 'play':
+			mus = body.slice(6)
+                mus1 = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${mus}&apikey=apivinz`, {method: 'get'})
+               if (!isRegister) return reply(mess.only.daftarB)
+               if (isLimit(sender)) return reply(ind.limitend(pusname))
+               if (mus1.error) return reply(mus1.error)
+                 muss = `*Lagu Ditemukan!!!*\nJudul : ${mus1.result.title}\nUkuran : ${mus1.result.size}\nLink : ${mus1.result.source}\nMusic Sedang Di Kirim!!!`
+                buffer = await getBuffer(mus1.result.thumbnail)
+                muss2 = await getBuffer(mus1.result.url_audio)
+                client.sendMessage(from, buffer, image, {quoted: mek, caption: muss})
+                client.sendMessage(from, muss2, audio, {mimetype: 'audio/mp4', filename: `${mus1.result.title}.mp3`, quoted: mek})
                 await limitAdd(sender)
                 break
                 case 'play2':
