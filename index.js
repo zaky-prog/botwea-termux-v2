@@ -2382,18 +2382,24 @@ async function starts() {
                                         reply(anu.result)
                                         await limitAdd(sender)
                                         break
-                                /*case 'translate':
-                                        var gl = body.slice(10)
-                                        var lg = gh.split("|")[0];
-                                        var teksnya = gh.split("|")[1];
-                                        if (args.length < 1) return reply(`kode bahasanya mana kak\nContoh:\n${prefix}translate|en|aku nazwa`)
-                                        if (args.length < 2) return reply(`teksnya mana um\nContoh:\n${prefix}translate|en|aku nazwa`)
+                                case 'translate':
+                                        aruga = body.slice(10)
+                                        lang = aruga.split("|")[0];
+                                        teksnya = aruga.split("|")[1];
                                         if (!isRegister) return reply(mess.only.daftarB)
-                                        reply(mess.wait)
-                                        anu = await fetchJson(`https://arugaz.my.id/api/edu/translate?lang=${lg}&text=${teksnya}`, {method: 'get'})
-                                        hasil = `*Text* : ${teksnya}\n*Translate* : ${anu.text}\n*Languange* : ${lg}\n*Did You Mean* : ${anu.didYouMean}`
-                                        client.sendMessage(from, hasil, text, {quoted: mek})
-                                        break*/
+                                        if (args.length < 1) return reply(`kode bahasanya mana kak?\nContoh: ${prefix}translate en|Hai, aku Nazwa`)
+                                        if (args.length < 2) return reply(`teksnya mana kak?\nContoh: ${prefix}translate en|Hai, aku Nazwa`)
+                                        anu = await fetchJson(`https://arugaz.my.id/api/edu/translate?lang=${lang}&text=${teksnya}`, {method: 'get'})
+                                        arteks = `◪ *TRANSLATE* \n  │\n  ├─ ❏ Text : ${teksnya} \n  ├─ ❏ Translate : ${anu.text} \n  └─ ❏ *Pronunciation* : ${anu.pronunciation}`
+                                        client.sendMessage(from, arteks, text)
+                                        break
+                                case 'tafsirmimpi':
+                                        aruga = body.slice(12)
+                                        if (!isRegister) return reply(mess.only.daftarB)
+                                        if (args.length < 1) return reply(`mimpi apa kak?\nContoh: ${prefix}tafsirmimpi belanja`)
+                                        anu = await fetchJson(`https://arugaz.my.id/api/primbon/tafsirmimpi?mimpi=${aruga}`, {method: 'get'})
+                                        reply(anu.result.hasil)
+                                        break
                                 case 'bal':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         const kantong = checkATMuser(sender)
