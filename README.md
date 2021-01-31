@@ -216,7 +216,8 @@ Follow The Steps Below!
 - [My Bot](wa.me/14155285587)
 - [Group My Bot](https://chat.whatsapp.com/G8Lb8t0qG0iLFLxOCPY5hb)
 - [Group Diskusi Bot](https://chat.whatsapp.com/BtxiSvctCej1e1Ehkm8h9Q)
-<details>
+<Thanks To:>
+
 ## Special Thanks To
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
