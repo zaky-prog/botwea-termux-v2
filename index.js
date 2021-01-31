@@ -1007,7 +1007,55 @@ async function starts() {
                                                  reply('Gunakan foto!')
                                           }
                                              break
-                case 'wated':                    
+		case 'glass':                                        
+                                        if (isRegister) return  reply(mess.only.daftarB)
+                                        var imgbb = require('imgbb-uploader')
+                                         if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
+                                         ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+                                         reply(mess.wait)
+                                         owgi = await client.downloadAndSaveMediaMessage(ger)
+                                         anu = await imgbb("727e7e43f6cda1dfb85d888522fd4ce1", owgi)
+                                        teks = `${anu.display_url}`
+                                        ranpkli = getRandom('.png')
+                                        ranoklo = getRandom('.webp')
+                                        anu1klo = `https://some-random-api.ml/canvas/glass?avatar=${teks}`
+                                         exec(`wget ${anu1klo} -O ${ranpkli} && ffmpeg -i ${ranpkli} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${ranoklo}`, (err) => {
+                                                fs.unlinkSync(ranpkli)
+                                                if (err) return reply(mess.error.stick)
+                                                nobgklo = fs.readFileSync(ranoklo)
+                                                client.sendMessage(from, nobgklo, sticker, {quoted: mek})
+                                                fs.unlinkSync(rano)
+                                        })
+                                    
+                                             } else {
+                                                 reply('Gunakan foto!')
+                                          }
+                                             break
+                       case 'colors':     
+                                        if (isRegister) return  reply(mess.only.daftarB)
+                                        var imgbb = require('imgbb-uploader')
+                                         if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
+                                         ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+                                         reply(mess.wait)
+                                         owgi = await client.downloadAndSaveMediaMessage(ger)
+                                         anu = await imgbb("727e7e43f6cda1dfb85d888522fd4ce1", owgi)
+                                        teks = `${anu.display_url}`
+                                        ranpkle = getRandom('.png')
+                                        ranokla = getRandom('.webp')
+                                        anu1kla = `https://some-random-api.ml/canvas/gay?avatar=${teks}`
+                                         exec(`wget ${anu1kla} -O ${ranpkle} && ffmpeg -i ${ranpkle} -vcodec libwebp -filter:v fps=fps=20 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${ranokla}`, (err) => {
+                                                fs.unlinkSync(ranpkle)
+                                                if (err) return reply(mess.error.stick)
+                                                nobgkla = fs.readFileSync(ranokla)
+                                                client.sendMessage(from, nobgkla, sticker, {quoted: mek})
+                                                fs.unlinkSync(ranokla)
+                                        })
+                                    
+                                             } else {
+                                                 reply('Gunakan foto!')
+                                          }
+                                             break
+                case 'wanted':                    
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
                                         var imgbb = require('imgbb-uploader')
@@ -1338,15 +1386,15 @@ async function starts() {
                     await limitAdd(sender)
                     break
                     case 'quotemaker':
-                    gh = body.slice(12)
+                    ghlkj = body.slice(12)
                     if (!isRegister) return reply(mess.only.daftarB)
                     if (isLimit(sender)) return reply(ind.limitend(pusname))
-                    teks1 = gh.split("|")[0];
-                    teks2 = gh.split("|")[1];
-                    teks3 = gh.split("|")[2]
-                    data = await fetchJson(`https://terhambar.com/aw/qts/?kata=${teks1}&author=${teks2}&tipe=${teks3}`)
-                    buffer = await getBuffer(data.result)
-                    client.sendMessage(from, buffer, image, {quoted: mek, caption: 'neh...'})
+                    teks12 = ghlkj.split("|")[0];
+                    teks22 = ghlkj.split("|")[1];
+                    teks32 = ghlkj.split("|")[2]
+                    data2 = await fetchJson(`https://terhambar.com/aw/qts/?kata=${teks12}&author=${teks22}&tipe=${teks32}`)
+                    bufferkali = await getBuffer(data2.result)
+                    client.sendMessage(from, bufferkali, image, {quoted: mek, caption: 'neh...'})
                     await limitAdd(sender)
                     break
                     case 'glitch':
@@ -1559,6 +1607,7 @@ async function starts() {
               reply(hasil)
                 break
 			case 'closegc':
+			case 'group close':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -1572,7 +1621,7 @@ async function starts() {
 					reply(close)
 					break
                 case 'opengc':
-                case 'bukagc':
+                case 'group open':
 					client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
@@ -1788,24 +1837,24 @@ async function starts() {
 					if (args.length < 1) return reply(mess.blank)
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
-					tels = body.slice(7)
-					if (tels.length > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
+					telskla = body.slice(7)
+					if (telskla.length > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
 					reply(mess.wait)
-					anu = await fetchJson(`https://kocakz.herokuapp.com/api/flamingtext/water?text=${tels}`, {method: 'get'})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {quoted: mek})
+					anu = await fetchJson(`https://kocakz.herokuapp.com/api/flamingtext/water?text=${telskla}`, {method: 'get'})
+					bufferkmn = await getBuffer(anu.result)
+					client.sendMessage(from, bufferkmn, image, {quoted: mek})
                                         await limitAdd(sender)
 					break
 				case 'firetext':
 					if (args.length < 1) return reply(mess.blank)
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
-					tels = body.slice(7)
+					telsqsx = body.slice(7)
 					if (tels.ength > 10) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
-					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/tlight?text=${tels}&apikey=vinzapi`, {method: 'get'})
-					buff = await getBuffer(anu.result)
-					client.sendMessage(from, buff, image, {quoted: mek})
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/tlight?text=${telsqsx}&apikey=vinzapi`, {method: 'get'})
+					buffesa = await getBuffer(anu.result)
+					client.sendMessage(from, buffesa, image, {quoted: mek})
                                         await limitAdd(sender)
 					break
                                 case 'gantengcek':
@@ -1866,16 +1915,16 @@ async function starts() {
 					}
 					break
 				case 'logowolf':
-					var gh = body.slice(11)
-					var teks1 = gh.split("|")[0];
-					var teks2 = gh.split("|")[1];
-					if (args.length < 1) return reply(`teksnya mana? contoh ${prefix}logowolf Nazwa|Canss`)
+					var gh4 = body.slice(11)
+					var teks14 = gh4.split("|")[0];
+					var teks24 = gh4.split("|")[1];
+					if (args.length < 1) return reply(`teksnya mana? contoh ${prefix}logowolf emaklu|Canss`)
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					reply(mess.wait)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {quoted: mek})
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1=${teks14}&text2=${teks24}&apikey=BotWeA`, {method: 'get'})
+					bufferolf = await getBuffer(anu.result)
+					client.sendMessage(from, bufferolf, image, {quoted: mek})
                                         await limitAdd(sender)
 					break				
                                  case 'nsfw':
@@ -1944,16 +1993,16 @@ async function starts() {
                                         await limitAdd(sender)
 					break
 				case 'logowolf2':
-					var gh = body.slice(11)
-					var teks1 = gh.split("|")[0];
-					var teks2 = gh.split("|")[1];
-					if (args.length < 1) return reply(`teksnya mana? contoh ${prefix}logowolf Nazwa|Canss`)
+					var gh3 = body.slice(11)
+					var teks13 = gh3.split("|")[0];
+					var teks23 = gh3.split("|")[1];
+					if (args.length < 1) return reply(`teksnya mana? contoh ${prefix}logowolf dark|bot`)
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					reply(mess.wait)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo2&text1=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {quoted: mek})
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo2&text1=${teks13}&text2=${teks23}&apikey=BotWeA`, {method: 'get'})
+					bufferwol = await getBuffer(anu.result)
+					client.sendMessage(from, bufferwol, image, {quoted: mek})
                                         await limitAdd(sender)
 					break	
                                 case 'delete':
@@ -1964,14 +2013,14 @@ async function starts() {
 					client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 					break
                                 case 'phlogo':
-					var gh = body.slice(7)
-					var gbl1 = gh.split("|")[0];
-					var gbl2 = gh.split("|")[1];
-					if (args.length < 1) return reply('Teksnya mana um\nContoh: ${prefix}phlogo |Nazwa|Canss')
+					var ghph = body.slice(7)
+					var gbl1ph = ghph.split("|")[0];
+					var gbl2ph = ghph.split("|")[1];
+					if (args.length < 1) return reply('Teksnya mana um\nContoh: ${prefix}phlogo |aku|Sayang kamu')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         if (isLimit(sender)) return reply(ind.limitend(pusname))
 					reply(mess.wait)
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/textpro?theme=pornhub&text1=${gbl1}&text2=${gbl2}`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/textpro?theme=pornhub&text1=${gbl1ph}&text2=${gbl2ph}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
                                         await limitAdd(sender)
@@ -1995,7 +2044,7 @@ async function starts() {
                 const userXp = getLevelingXp(sender)
                 if (userLevel === undefined && userXp === undefined) return reply(mess.levelnol)
                 sem = sender.replace('@s.whatsapp.net','')
-                resul = ` *LEVEL*\n    *Name* : ${sem}\n    *User XP* : ${userXp}\n    *User Level* : ${userLevel}`
+                resul = `=>*LEVEL*\n=> *Name* : ${sem}\n=>*User XP* : ${userXp}\n=>*User Level* : ${userLevel}`
                client.sendMessage(from, resul, text, { quoted: mek})
                 .catch(async (err) => {
                         console.error(err)
@@ -2004,12 +2053,12 @@ async function starts() {
             break
 				case 'fitnah':
 				if (args.length < 1) return reply(`Usage :\n${prefix}fitnah [@tag|pesan|balasanbot]]\n\nEx : \n${prefix}fitnah @tagmember|hai|hai juga`)
-				var gh = body.slice(7)
+				var fitn = body.slice(7)
 				mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
-					var replace = gh.split("|")[0];
-					var target = gh.split("|")[1];
-					var bot = gh.split("|")[2];
-					client.sendMessage(from, `${bot}`, text, {quoted: { key: { fromMe: false, participant: `${mentioned}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target}` }}})
+					var replace3 = fitn.split("|")[0];
+					var target3 = fitn.split("|")[1];
+					var bot3 = fitn.split("|")[2];
+					client.sendMessage(from, `${bot3}`, text, {quoted: { key: { fromMe: false, participant: `${mentioned}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target3}` }}})
 					break
             case 'leveling':
                 if (!isGroup) return reply(mess.only.group)
@@ -2077,7 +2126,7 @@ async function starts() {
                                         client.sendMessage(from, tag, text, {quoted: mek})
                                         break
                                 case 'neonlogo':
-                                        const ajg6 = body.slice(10)
+                                        ajg6 = body.slice(10)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}neonlogo ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                          reply(mess.wait)
@@ -2087,7 +2136,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'neonlogo2':
-                                        const ajg7 = body.slice(11)
+                                        ajg7 = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}neonlogo2 ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2109,7 +2158,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'jokerlogo':
-                                        const ajg8 = body.slice(11)
+                                        ajg8 = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}jokerlogo ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2130,7 +2179,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'burnpaper':
-                                        const ajg5 = body.slice(11)
+                                        ajg5 = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}burnpaper ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2140,7 +2189,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'coffee':
-                                        const ajg4 = body.slice(8)
+                                        ajg4 = body.slice(8)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}coffee ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2150,7 +2199,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'lovepaper':
-                                        const ajg3 = body.slice(11)
+                                        ajg3 = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}lovepaper ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2160,7 +2209,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'woodblock':
-                                        const ajg2 = body.slice(11)
+                                        ajg2 = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}woodblock ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2170,7 +2219,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'qowheart':
-                                        const ajg1 = body.slice(10)
+                                        ajg1 = body.slice(10)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}qowheart ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2180,7 +2229,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'mutgrass':
-                                        const ajg = body.slice(10)
+                                        ajg = body.slice(10)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}mutgrass ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2190,7 +2239,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'undergocean':
-                                        const un = body.slice (13)
+                                        un = body.slice(13)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}undergocean ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2200,7 +2249,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'woodenboards':
-                                        const bo = body.slice (14)
+                                        bo = body.slice(14)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}woodenboards ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2210,7 +2259,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'wolfmetal':
-                                        const wo = body.slice (11)
+                                        wo = body.slice(11)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}wolfmetal ajg')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
@@ -2220,7 +2269,7 @@ async function starts() {
                                         await limitAdd(sender)
                                         break
                                 case 'metalictglow':
-                                        const me = body.slice(14)
+                                        me = body.slice(14)
                                         if (args.length < 1) return reply('teksnya mana um\nContoh: ${prefix}metalictglow anjing')
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         reply(mess.wait)
