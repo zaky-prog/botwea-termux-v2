@@ -210,17 +210,13 @@ Follow The Steps Below!
 | Afk|✅|
 | Timer|✅|
 
----
-#ANJAY
----
-<details>
-HUB SAYA DENGAN:
+## HUB SAYA DENGAN:
 - [WhatsApp](wa.me/6281368646011)
 - [Instagram](instagram.com/anker_2412)
 - [My Bot](wa.me/14155285587)
 - [Group My Bot](https://chat.whatsapp.com/G8Lb8t0qG0iLFLxOCPY5hb)
 - [Group Diskusi Bot](https://chat.whatsapp.com/BtxiSvctCej1e1Ehkm8h9Q)
-
+<details>
 ## Special Thanks To
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
