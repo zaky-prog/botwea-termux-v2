@@ -1,5 +1,7 @@
 ### Moshi Moshi~ I'm ANKER
 
+## Note : Jangan ubah ${pushname} jadi ${prefix} di bagian menu!!!
+
 ## Install
 Follow The Steps Below!
 
@@ -62,6 +64,7 @@ Follow The Steps Below!
 | Wolf Metal Image Maker|✅|
 | Metalic Text Glow Image Maker|✅|
 | 8 Bit Image Maker|✅|
+| Harta Tahta|✅|
 | Text Sticker Maker|✅|
 | Herry Potter Image Maker|✅|
 | Pubg Logo Maker|✅|
@@ -210,6 +213,14 @@ Follow The Steps Below!
 ---
 #ANJAY
 ---
+<details>
+HUB SAYA DENGAN:
+- [WhatsApp](wa.me/6281368646011)
+- [Instagram](instagram.com/anker_2412)
+- [My Bot](wa.me/14155285587)
+- [Group My Bot](https://chat.whatsapp.com/G8Lb8t0qG0iLFLxOCPY5hb)
+- [Group Diskusi Bot](https://chat.whatsapp.com/BtxiSvctCej1e1Ehkm8h9Q)
+<details>
 
 ## Special Thanks To
 
